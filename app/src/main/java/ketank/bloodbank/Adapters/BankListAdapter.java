@@ -1,7 +1,7 @@
 package ketank.bloodbank.Adapters;
 
 import android.content.Context;
-import android.support.v7.widget.RecyclerView;
+import androidx.recyclerview.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -14,7 +14,6 @@ import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import java.util.ArrayList;
 
 import ketank.bloodbank.Models.BloodBank;
-import ketank.bloodbank.Models.UserModel;
 import ketank.bloodbank.R;
 
 

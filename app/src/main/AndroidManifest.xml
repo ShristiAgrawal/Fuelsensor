@@ -24,6 +24,7 @@
 
         <activity android:name=".Activity.UserMainActivity"></activity>
         <activity android:name=".Activity.LoginActivity">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -31,7 +32,9 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".Activity.MapsActivity"></activity>
+        <activity android:name=".Activity.MapsActivity">
+
+        </activity>
         <activity android:name=".Activity.BankMainActivity"/>
         <activity android:name=".Fragments.User.NearbyActivity"></activity>
         <service

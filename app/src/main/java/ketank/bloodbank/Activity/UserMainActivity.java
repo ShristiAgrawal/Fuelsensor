@@ -6,24 +6,13 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
-import android.location.Address;
-import android.location.Geocoder;
 import android.location.Location;
-import android.support.annotation.NonNull;
-import android.support.v4.app.ActivityCompat;
-import android.support.v4.view.ViewPager;
-import android.support.v7.app.AppCompatActivity;
+import androidx.annotation.NonNull;
+import androidx.core.app.ActivityCompat;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
-import android.support.v7.widget.CardView;
+import androidx.cardview.widget.CardView;
 import android.view.View;
-import android.widget.Toast;
-
-import com.astuetz.PagerSlidingTabStrip;
-import com.jaredrummler.materialspinner.MaterialSpinner;
-
-import java.io.IOException;
-import java.util.List;
-import java.util.Locale;
 
 import fr.quentinklein.slt.LocationTracker;
 import fr.quentinklein.slt.TrackerSettings;
@@ -35,7 +24,6 @@ public class UserMainActivity extends AppCompatActivity {
     LocationTracker tracker;
     int REQUEST_LOCATION=5;
     SharedPreferences preferences;
-    MaterialSpinner spinner;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

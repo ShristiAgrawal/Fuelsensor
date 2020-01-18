@@ -7,16 +7,12 @@ import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.provider.ContactsContract;
-import android.support.annotation.Nullable;
-import android.support.v4.app.Fragment;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
+import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 import android.util.Log;
-import android.view.LayoutInflater;
 import android.view.View;
-import android.view.ViewGroup;
-import android.widget.LinearLayout;
 import android.widget.ProgressBar;
 
 import com.android.volley.AuthFailureError;
@@ -30,15 +26,11 @@ import com.jaredrummler.materialspinner.MaterialSpinner;
 import org.json.JSONArray;
 
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
 
-import ketank.bloodbank.Activity.MapsActivity;
-import ketank.bloodbank.Adapters.BankListAdapter;
 import ketank.bloodbank.Adapters.DonorsListAdapter;
-import ketank.bloodbank.Models.BloodBank;
 import ketank.bloodbank.Models.UserModel;
 import ketank.bloodbank.Other.AppController;
 import ketank.bloodbank.R;
